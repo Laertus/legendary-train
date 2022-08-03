@@ -1,0 +1,80 @@
+body {
+  background: #FFFFE0;
+  color: #444;
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+li{
+  display: inline-block;
+  height: 22px;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  border-left: 2px solid green;
+  border-right: 1px solid green;
+  background-color: olive;
+}
+
+li:hover{
+background-color: lightgreen;
+border-style: none;
+}
+
+/* Koppen */
+h1,h2,h3,h4,h5,h6 {
+  color: black;
+  line-height: 1;
+}
+
+/* header */
+header {
+  background-color: #FFFFE0;
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+}
+
+/* footer */
+footer{
+  background-color: #FFFFE0;
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+input[type="text"], input[type="email"], textarea, select, button{
+  display: block;
+  margin: 15px 15px;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px grey;
+}
+
+textarea{
+  height: 200px;
+  background-color: #EEE8AA;
+  padding: 5px 4px;
+}
+
+button:active{
+  background-color: lightgreen;
+  color: blue;
+  border-radius: 8px;
+  box-shadow: inset 2px 2px 5px green;
+}
+
+form {
+  margin-left: 15px;
+  margin-right: 15px;
+}
